@@ -50,25 +50,21 @@ Copy code
 
 ## 🧩 Folder Structure
 
+```text
 Medical_Intrusion_Detection/
 │
-├── data/ # Synthetic and processed datasets
-├── preprocessing/ # Data cleaning, scaling, and feature selection
-├── models/ # CNN, BiLSTM, and hybrid architectures
-├── meta_learning/ # (Optional) MAML meta-learning experiments
-├── explainability/ # SHAP & LIME explainability visualizations
-├── evaluation/ # Evaluation metrics and performance plots
-├── app/ # Application layer
-│ ├── server.py # Flask backend API
-│ └── react_dashboard/ # React.js frontend dashboard
-├── notebooks/ # Jupyter notebooks for research/testing
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
-yaml
-Copy code
-
----
+├── data/                   # Synthetic and processed datasets
+├── preprocessing/           # Data cleaning, scaling, and feature selection
+├── models/                  # CNN, BiLSTM, and hybrid architectures
+├── meta_learning/           # (Optional) MAML meta-learning experiments
+├── explainability/          # SHAP & LIME explainability visualizations
+├── evaluation/              # Evaluation metrics and performance plots
+├── app/                     # Application layer
+│   ├── server.py            # Flask backend API
+│   └── react_dashboard/     # React.js frontend dashboard
+├── notebooks/               # Jupyter notebooks for research/testing
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
 
 ## ⚙️ Setup Instructions
 

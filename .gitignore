@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+env/
+venv/
+.venv/
+venv*/
+# .gitignore
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.DS_Store
+.ipynb_checkpoints/
+.env
+*.h5
+*.npy
+node_modules/
+app/react_dashboard/node_modules/
+
+
+#models
+
+models/__pycache__
+models/checkpoints
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+Thumbs.db
+desktop.ini
+
+# VSCode
+.vscode/
+
+# Node / React
+node_modules/
+build/
+dist/
+
+# Data / models / outputs
+data/*.npy
+data/*.npz
+data/*.csv
+models/checkpoints/
+models/*.h5
+models/*.pt
+models/*.ckpt
+explainability/outputs/
+evaluation/outputs/
+app/isolation_forest.joblib
+
+# Logs
+*.log

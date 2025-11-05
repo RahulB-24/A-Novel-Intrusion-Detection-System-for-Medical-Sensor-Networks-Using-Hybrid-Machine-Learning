@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  background-color: #0e1117;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+}
+
+textarea {
+  width: 60%;
+  height: 100px;
+  margin-top: 1rem;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #009688;
+}
+
+.output {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+}
